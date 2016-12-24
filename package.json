@@ -1,0 +1,17 @@
+{
+  "name": "alexa-smartstart",
+  "version": "0.1.0",
+  "description": "Viper SmartStart Skill for Alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dale Higgs <@dale3h>",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "debug": "^2.5.1",
+    "smartcrypt": "^1.0.1",
+    "smartstart": "^1.0.1"
+  }
+}
