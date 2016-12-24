@@ -12,7 +12,7 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
     * **Skill Type:** `Custom Interaction Model`
     * **Language:** `English (U.S.)`
     * **Name:** `Viper SmartStart`
-    * **Invocation Name:** `smart start`
+    * **Invocation Name:** `viper`
     * **Audio Player:** `No`
   1. Click **Next**.
   1. At the top left under **Viper SmartStart** you should see a skill ID. Copy this down as we will need it in the next step.
@@ -30,13 +30,24 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
   * **Certificate for NA Endpoint:** `My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority`
 1. Click **Next** and you are finished.
 
+## Donations
+
+If you find yourself enjoying this skill, please consider making a small donation of $7 to help cover the server costs.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="QMN7ED7745TQJ">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 ## Sample Phrases
 
-* *Alexa, tell Smart Start to unlock the car*
-* *Alexa, lock the truck with Smart Start*
-* *Alexa, tell Smart Start to start the car*
-* *Alexa, ask Smart Start what was the top speed today?*
-* *Alexa, ask Smart Start to find the Jeep*
+* *Alexa, tell Viper to unlock the car*
+* *Alexa, lock the truck with Viper*
+* *Alexa, tell Viper to start the car*
+* *Alexa, ask Viper what was the top speed today?*
+* *Alexa, ask Viper to find the Jeep*
 
 ## Bugs and Issues
 
