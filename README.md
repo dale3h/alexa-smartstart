@@ -40,4 +40,4 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
 
 ## Bugs and Issues
 
-Please report bugs and issues using the [Issues](issues) page.
+Please report any bugs or issues to the [Issues](https://github.com/dale3h/alexa-smartstart/issues) page.
