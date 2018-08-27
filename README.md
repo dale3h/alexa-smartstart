@@ -12,12 +12,23 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
     * **Language:** `English (U.S.)`
     * **Model:** `Custom` (should already be selected)
     * Click **Create skill >**
-
-  1. At the top left under **Viper SmartStart** you should see a skill ID. Copy this down as we will need it in the next step.
+![image](https://user-images.githubusercontent.com/12087169/44659722-280e0080-a9d3-11e8-879e-e5e1f0b8ef16.png)
+1. On the accordion menu on the left, click **Invocation**
+    * Enter `viper` as the invocation name
+    ![image](https://user-images.githubusercontent.com/12087169/44663067-71634d80-a9dd-11e8-8243-e79cbde3f4b7.png)
+1. Now click **JSON Editor**, and paste in the contents of 
+1. At the top left, click **< Your Skills**
+1. Under your new skill, click **View Skill ID**, copy down the ID that shows in the modal
+![image](https://user-images.githubusercontent.com/12087169/44659864-b08ca100-a9d3-11e8-8007-4d2229e184fb.png)
 1. Go to [https://alexa-skills-server.herokuapp.com/smartstart](https://alexa-skills-server.herokuapp.com/smartstart) and enter your Directed/Viper/Clifford/Python SmartStart username and password, as well as the skill ID that you copied from the previous step.
-  1. **Make sure to enter this information correctly as you will have to wait 60 seconds before you can try again. This is a security measure to prevent brute-force attacks on the encryption keys.**
-  1. After you've made sure that you have entered the correct information, click **Submit**.
-  1. Copy and paste the **Intent Schema** and **Sample Utterances** to the new skill on the **Amazon Developer Portal**.
+    * **Make sure to enter this information correctly as you will have to wait 60 seconds before you can try again. This is a security measure to prevent brute-force attacks on the encryption keys.**
+    * After you've made sure that you have entered the correct information, click **Submit**.
+1. Back in your skill page, go back into your skill, and click **Intents**
+    * For each intent listed in the **Intent Schema**:
+    * Click **+ Add Intent**
+    * Enter the same name as is described in 
+    
+and **Sample Utterances** to the new skill on the **Amazon Developer Portal**.
   1. On the **Amazon Developer Portal** page, click **Next**.
 1. You should now be on the **Configuration** page of the skill.
   * **Service Endpoint Type:** `HTTPS`
