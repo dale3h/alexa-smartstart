@@ -153,6 +153,14 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
     ![screenshot_20180827-100544](https://user-images.githubusercontent.com/12087169/44664303-d53b4580-a9e0-11e8-94f7-1f74de6a7ee1.png)
 1. And you're done! You can test this out by making sure your car is in the ready state to start, then say to Alexa: *Alexa, tell viper to start my car*. Alexa should respond by saying: *Ladies and Gentleman, start your engines!*
 
+## Optional Step - Adding an icon to your Alexa Skill
+1. Go to the **Distribution** tab in your Alexa Dev console
+1. Scroll down until you see entries for the **Small Skill Icon** and **Large Skill Icon**
+    * I added an image file to the project directory called `viper.png`, so download that image, then drag and drop it over both those sections in your dev console
+    ![image](https://user-images.githubusercontent.com/12087169/44668009-58ad6480-a9ea-11e8-8307-d36752ac3867.png)
+    * Click **Save and continue**
+1. That's it! Do not do anything else in the distribution settings. You should be able to go right into your Alexa Skills on your phone and see the new icon!
+
 ## Donations
 
 If you find yourself enjoying this skill, please consider making a small donation of $7 to help cover the server costs.
