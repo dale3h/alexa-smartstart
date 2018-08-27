@@ -7,14 +7,12 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
 
 1. If you do not already have one, create an [**Amazon Developer**](https://developer.amazon.com/) account.
 1. Go to the [**Amazon Developer Portal**](https://developer.amazon.com/edw/home.html#/).
-  1. Click **Get Started >** under **Alexa Skills Kit**.
-  1. Click **Add a New Skill** at the top right.
-    * **Skill Type:** `Custom Interaction Model`
+1. Click **Create skill >**
+    * **Skill Name:** `Viper Smart Start`
     * **Language:** `English (U.S.)`
-    * **Name:** `Viper SmartStart`
-    * **Invocation Name:** `viper`
-    * **Audio Player:** `No`
-  1. Click **Next**.
+    * **Model:** `Custom` (should already be selected)
+    * Click **Create skill >**
+
   1. At the top left under **Viper SmartStart** you should see a skill ID. Copy this down as we will need it in the next step.
 1. Go to [https://alexa-skills-server.herokuapp.com/smartstart](https://alexa-skills-server.herokuapp.com/smartstart) and enter your Directed/Viper/Clifford/Python SmartStart username and password, as well as the skill ID that you copied from the previous step.
   1. **Make sure to enter this information correctly as you will have to wait 60 seconds before you can try again. This is a security measure to prevent brute-force attacks on the encryption keys.**
