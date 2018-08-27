@@ -16,28 +16,34 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
 1. On the accordion menu on the left, click **Invocation**
     * Enter `viper` as the invocation name
     ![image](https://user-images.githubusercontent.com/12087169/44663067-71634d80-a9dd-11e8-8243-e79cbde3f4b7.png)
-1. Now click **JSON Editor**, and paste in the contents of 
+1. Now click **JSON Editor**, and paste in the contents of viperModelSchema.json
+![image](https://user-images.githubusercontent.com/12087169/44663729-55f94200-a9df-11e8-8ba8-7f848dc39d4e.png)
+1. Click **Save Model**
 1. At the top left, click **< Your Skills**
 1. Under your new skill, click **View Skill ID**, copy down the ID that shows in the modal
 ![image](https://user-images.githubusercontent.com/12087169/44659864-b08ca100-a9d3-11e8-8007-4d2229e184fb.png)
 1. Go to [https://alexa-skills-server.herokuapp.com/smartstart](https://alexa-skills-server.herokuapp.com/smartstart) and enter your Directed/Viper/Clifford/Python SmartStart username and password, as well as the skill ID that you copied from the previous step.
     * **Make sure to enter this information correctly as you will have to wait 60 seconds before you can try again. This is a security measure to prevent brute-force attacks on the encryption keys.**
     * After you've made sure that you have entered the correct information, click **Submit**.
-1. Back in your skill page, go back into your skill, and click **Intents**
-    * For each intent listed in the **Intent Schema**:
-    * Click **+ Add Intent**
-    * Enter the same name as is described in 
-    
-and **Sample Utterances** to the new skill on the **Amazon Developer Portal**.
-  1. On the **Amazon Developer Portal** page, click **Next**.
-1. You should now be on the **Configuration** page of the skill.
-  * **Service Endpoint Type:** `HTTPS`
-  * **Geographical Region:** `North America`
-  * Copy and paste the **Skill URL** from the **Viper SmartStart Alexa Skill Setup** page into the text field under **North America**.
-  * **Account Linking:** `No`
-1. Click **Next**.
-  * **Certificate for NA Endpoint:** `My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority`
-1. Click **Next** and you are finished.
+1. Back in your skill page, go back into your skill, and click **Endpoint**
+    * **Service Endpoint Type:** `HTTPS`
+    * Copy and paste the **Skill URL** from the **Viper SmartStart Alexa Skill Setup** page into the text field under **Default Region**.
+    * Select SSL Certificate Type > `My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority`
+    * Copy and paste the **Skill URL** from the **Viper SmartStart Alexa Skill Setup** page into the text field under **North America**.
+    * Select SSL Certificate Type > `My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority`
+    ![image](https://user-images.githubusercontent.com/12087169/44663924-cdc76c80-a9df-11e8-89a8-05ca655f05cb.png)
+    * Click **Save Endpoints**
+1. On the accordion menu ont he left, click **Custom** at the top
+    * You should have green checkmarks for **Invocation Name**, **Intents, Samples, and Slots**, and **Endpoint**
+    * Click **Build Model**
+    * You will receive a popup message telling you to wait for the model to build
+    * Once the build completes, all sections will be green
+    ![image](https://user-images.githubusercontent.com/12087169/44664122-5d6d1b00-a9e0-11e8-83a8-dbe078790637.png)
+1. Go to your Alexa App, click the hamburger menu in the top left, click **Skills**
+    * Click **Your Skills** in the top right
+    * Verify that **Viper SmartStart** shows up
+    ![screenshot_20180827-100544](https://user-images.githubusercontent.com/12087169/44664303-d53b4580-a9e0-11e8-94f7-1f74de6a7ee1.png)
+1. And you're done! You can test this out by making sure your car is in the ready state to start, then say to Alexa: *Alexa, tell viper to start my car*. Alexa should respond by saying: *Ladies and Gentleman, start your engines!*
 
 ## Donations
 
