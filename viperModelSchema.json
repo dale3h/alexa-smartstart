@@ -1,0 +1,106 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "viper",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartIntent",
+                    "slots": [],
+                    "samples": [
+                        "start my car",
+                        "turn on the vehicle",
+                        "start the vehicle",
+                        "turn on the car",
+                        "start the car"
+                    ]
+                },
+                {
+                    "name": "StopIntent",
+                    "slots": [],
+                    "samples": [
+                        "stop my car",
+                        "shutdown my car",
+                        "turn off my car",
+                        "shutdown the vehicle",
+                        "turn off the vehicle",
+                        "stop the vehicle",
+                        "shutdown the car",
+                        "turn off the car",
+                        "stop the car"
+                    ]
+                },
+                {
+                    "name": "UnlockIntent",
+                    "slots": [],
+                    "samples": [
+                        "disarm my car",
+                        "unlock my car",
+                        "disarm the vehicle",
+                        "unlock the vehicle",
+                        "disarm the car",
+                        "unlock the car"
+                    ]
+                },
+                {
+                    "name": "LockIntent",
+                    "slots": [],
+                    "samples": [
+                        "arm the vehicle",
+                        "lock the vehicle",
+                        "arm my car",
+                        "arm the car",
+                        "lock my car",
+                        "lock the car"
+                    ]
+                },
+                {
+                    "name": "SpeedIntent",
+                    "slots": [],
+                    "samples": [
+                        "what was the top speed",
+                        "what was teh fastest speed",
+                        "top speed",
+                        "fastest speed",
+                        "how fast"
+                    ]
+                },
+                {
+                    "name": "LocateIntent",
+                    "slots": [],
+                    "samples": [
+                        "find the vehicle",
+                        "locate the vehicle",
+                        "where is the vehicle",
+                        "find the car",
+                        "locate the car",
+                        "where is the car",
+                        "find",
+                        "locate",
+                        "where"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
