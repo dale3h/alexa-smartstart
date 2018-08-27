@@ -16,7 +16,115 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
 1. On the accordion menu on the left, click **Invocation**
     * Enter `viper` as the invocation name
     ![image](https://user-images.githubusercontent.com/12087169/44663067-71634d80-a9dd-11e8-8243-e79cbde3f4b7.png)
-1. Now click **JSON Editor**, and paste in the contents of viperModelSchema.json
+1. Now click **JSON Editor**, and paste in the contents of viperModelSchema.json in the file directory
+```
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "viper",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartIntent",
+                    "slots": [],
+                    "samples": [
+                        "start my car",
+                        "turn on the vehicle",
+                        "start the vehicle",
+                        "turn on the car",
+                        "start the car"
+                    ]
+                },
+                {
+                    "name": "StopIntent",
+                    "slots": [],
+                    "samples": [
+                        "stop my car",
+                        "shutdown my car",
+                        "turn off my car",
+                        "shutdown the vehicle",
+                        "turn off the vehicle",
+                        "stop the vehicle",
+                        "shutdown the car",
+                        "turn off the car",
+                        "stop the car"
+                    ]
+                },
+                {
+                    "name": "UnlockIntent",
+                    "slots": [],
+                    "samples": [
+                        "disarm my car",
+                        "unlock my car",
+                        "disarm the vehicle",
+                        "unlock the vehicle",
+                        "disarm the car",
+                        "unlock the car"
+                    ]
+                },
+                {
+                    "name": "LockIntent",
+                    "slots": [],
+                    "samples": [
+                        "arm the vehicle",
+                        "lock the vehicle",
+                        "arm my car",
+                        "arm the car",
+                        "lock my car",
+                        "lock the car"
+                    ]
+                },
+                {
+                    "name": "SpeedIntent",
+                    "slots": [],
+                    "samples": [
+                        "what was the top speed",
+                        "what was teh fastest speed",
+                        "top speed",
+                        "fastest speed",
+                        "how fast"
+                    ]
+                },
+                {
+                    "name": "LocateIntent",
+                    "slots": [],
+                    "samples": [
+                        "find the vehicle",
+                        "locate the vehicle",
+                        "where is the vehicle",
+                        "find the car",
+                        "locate the car",
+                        "where is the car",
+                        "find",
+                        "locate",
+                        "where"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
+```
 ![image](https://user-images.githubusercontent.com/12087169/44663729-55f94200-a9df-11e8-8ba8-7f848dc39d4e.png)
 1. Click **Save Model**
 1. At the top left, click **< Your Skills**
