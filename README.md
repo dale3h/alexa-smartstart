@@ -9,7 +9,7 @@ Control your Viper SmartStart enabled car with Alexa (Amazon Echo)
 1. Go to the [**Amazon Developer Portal**](https://developer.amazon.com/edw/home.html#/).
 1. Click **Create skill >**
     * **Skill Name:** `Viper Smart Start`
-    * **Language:** `English (U.S.)`
+    * **Language:** `English (U.S.)`(you need to select the appropriate region here. e.g. if you live in the U.K., select `English (U.K.)`)
     * **Model:** `Custom` (should already be selected)
     * Click **Create skill >**
 ![image](https://user-images.githubusercontent.com/12087169/44659722-280e0080-a9d3-11e8-879e-e5e1f0b8ef16.png)
